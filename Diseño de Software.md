@@ -1,5 +1,5 @@
 # Diseño-de-Software
-"""
+
 # ACTIVIDAD EJERCICIO BASE (Adaptado a Supermercado)
 
 # Enunciado del Ejercicio:
