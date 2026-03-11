@@ -77,6 +77,7 @@ Calcular Total de Ventas de Productos
 Representación textual:
 
 Administrador del Supermercado → (Calcular Total de Ventas de Productos)
+<img width="714" height="350" alt="image-Photoroom" src="https://github.com/user-attachments/assets/f9e07aee-ac0f-4e8c-8ebd-85c6f36b1f4f" />
 
 # Caso de Uso Extendido
 
@@ -87,7 +88,7 @@ Administrador del Supermercado → (Calcular Total de Ventas de Productos)
 **Propósito:** Registrar los datos de los productos y calcular el total de las ventas.
 
 
-# Curso de eventos:
+### Curso de eventos:
 
 1. El administrador ingresa la cantidad de productos a registrar.
 
