@@ -116,6 +116,53 @@ Administrador del Supermercado → (Calcular Total de Ventas de Productos)
 
 
 # Diagrama de flujo
-<img width="683" height="1475" alt="Diagrama de flujo" src="https://github.com/user-attachments/assets/c21b406b-17fe-4d75-a0d6-148a5afebf81" />
+<img width="383" height="1475" alt="Diagrama de flujo" src="https://github.com/user-attachments/assets/c21b406b-17fe-4d75-a0d6-148a5afebf81" />
 
+
+# Pseudocodigo
+```pseudocode
+Algoritmo sin_titulo
+
+    Definir codigo Como Cadena
+    Definir nombre Como Cadena
+    Definir precioUnitario Como Real
+    Definir cantidadVendida Como Entero
+    Definir totalProducto Como Real
+    Definir totalGeneral Como Real
+    Definir continuar Como Cadena
+
+    totalGeneral <- 0
+
+    Escribir "SISTEMA DE VENTAS DEL SUPERMERCADO"
+
+    Repetir
+
+        Escribir "Ingrese el código del producto:"
+        Leer codigo
+
+        Escribir "Ingrese el nombre del producto:"
+        Leer nombre
+
+        Escribir "Ingrese el precio unitario:"
+        Leer precioUnitario
+
+        Escribir "Ingrese la cantidad vendida:"
+        Leer cantidadVendida
+
+        totalProducto <- precioUnitario * cantidadVendida
+
+        Escribir "Total del producto: ", totalProducto
+
+        totalGeneral <- totalGeneral + totalProducto
+
+        Escribir "¿Desea ingresar otro producto? (S/N)"
+        Leer continuar
+
+    Hasta Que continuar = "N"
+
+    Escribir "--------------------------------"
+    Escribir "TOTAL GENERAL DE VENTAS: ", totalGeneral
+    Escribir "--------------------------------"
+
+FinAlgoritmo
 """
