@@ -115,70 +115,7 @@ Administrador del Supermercado → (Calcular Total de Ventas de Productos)
    • Total general de ventas
 
 
-# Modelo de Datos
+# Diagrama de flujo
+<img width="683" height="2475" alt="Diagrama de flujo" src="https://github.com/user-attachments/assets/c21b406b-17fe-4d75-a0d6-148a5afebf81" />
 
-Producto:
-
-• código : String
-
-• nombre : String
-
-• precioUnitario : double
-
-• cantidadVendida : int
-
-• total : double
-
-
-# Diseño de la Aplicación
-
-Entradas:
-
-• Código
-
-• Nombre
-
-• Precio Unitario
-
-• Cantidad
-
-
-Procesos:
-
-• Calcular total por producto
-
-• Calcular total general
-
-
-Salidas:
-
-• Total por producto
-
-• Total general
-
-
-# Ejemplo:
-
-Producto 1:
-
-Precio = 2000
-
-Cantidad = 5
-
-Total = 10000
-
-Producto 2:
-
-Precio = 3000
-
-Cantidad = 3
-
-Total = 9000
-
-Total general = 19000
-
-
-# Conclusión
-
-La aplicación permite al administrador del supermercado registrar productos, calcular automáticamente el total de ventas por producto y visualizar el total general, facilitando el control de las ventas del día.
 """
