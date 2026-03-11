@@ -116,6 +116,6 @@ Administrador del Supermercado → (Calcular Total de Ventas de Productos)
 
 
 # Diagrama de flujo
-<img width="683" height="2475" alt="Diagrama de flujo" src="https://github.com/user-attachments/assets/c21b406b-17fe-4d75-a0d6-148a5afebf81" />
+<img width="683" height="1475" alt="Diagrama de flujo" src="https://github.com/user-attachments/assets/c21b406b-17fe-4d75-a0d6-148a5afebf81" />
 
 """
